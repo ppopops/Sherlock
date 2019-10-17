@@ -1,0 +1,1397 @@
+nom contrat: 1-Bytes32Lib
+adresse contrat: 0x0fcf5a3884585e14fd2d8d131def18f598dfcc2b
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 1-Bytes32Lib
+Fonction: 0dcfb018
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 1494 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 1899 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 2304 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 2709 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3114 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3519 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3924 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 4329 Type Vol: Instruction Invalide
+ Nombre total de chemins: 8
+   Essence Minimale: 1494
+   Essence Maximale: 4329
+
+Fonction: f75fa5e1
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3077 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 3581
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3369 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 4805 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 5210 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 5615 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 6020 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 6425 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 6830 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 7235 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 4809 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 5214 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 5619 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 6024 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 6429 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 6834 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 7239 Type Vol: Instruction Invalide
+ Nombre total de chemins: 17
+   Essence Minimale: 3077
+   Essence Maximale: 7239
+
+Temps exécution: 595.2304158210754
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 2-NePay
+adresse contrat: 0x0000000000000000000000000000000000000000
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 2-NePay
+Fonction:
+   Instruction: STOP Solvable: True Essence Maximum: 137961
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 31365 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 58005 Type Vol: Instruction Invalide
+ Nombre total de chemins: 3
+   Essence Minimale: 31365
+   Essence Maximale: 137961
+
+Fonction: 23b872dd
+   Instruction: REVERT Solvable: True Essence Maximum: 613
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 1037 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: True Essence Maximum: 1421
+   Instruction: REVERT Solvable: True Essence Maximum: 2461
+   Instruction: RETURN Solvable: True Essence Maximum: 86131
+ Nombre total de chemins: 5
+   Essence Minimale: 613
+   Essence Maximale: 86131
+
+Fonction: a9059cbb
+   Instruction: REVERT Solvable: True Essence Maximum: 789
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 1198 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: True Essence Maximum: 1582
+   Instruction: REVERT Solvable: True Essence Maximum: 2621
+   Instruction: RETURN Solvable: True Essence Maximum: 58081
+ Nombre total de chemins: 5
+   Essence Minimale: 789
+   Essence Maximale: 58081
+
+Appel autre contrat détecté
+Temps exécution: 90.88477277755737
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 3-SafeMathLibExt
+adresse contrat: 0x2F78032912eF59a990264C4C06937dA4dBF550FD
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 3-SafeMathLibExt
+Fonction:
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 281 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 368 Type Vol: Instruction Invalide
+ Nombre total de chemins: 2
+   Essence Minimale: 281
+   Essence Maximale: 368
+
+Fonction: a12f69e0
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 255 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 725
+ Nombre total de chemins: 2
+   Essence Minimale: 255
+   Essence Maximale: 725
+
+Fonction: f4f3bdc1
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 277 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 635
+ Nombre total de chemins: 2
+   Essence Minimale: 277
+   Essence Maximale: 635
+
+Fonction: fallback
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 222 Type Vol: Instruction Invalide
+ Nombre total de chemins: 1
+   Essence Minimale: 222
+   Essence Maximale: 222
+
+Fonction: 66098d4f
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 242 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 599
+ Nombre total de chemins: 2
+   Essence Minimale: 242
+   Essence Maximale: 599
+
+Temps exécution: 417.56792521476746
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 4-EC
+adresse contrat: 0x005aae78c0de67642c728504dc9d264ecb9bb312
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 4-EC
+Fonction: 47b6fa28
+   Instruction: REVERT Solvable: True Essence Maximum: 333
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 780 Type Vol: Instruction Invalide
+ Nombre total de chemins: 2
+   Essence Minimale: 333
+   Essence Maximale: 780
+
+Fonction:
+   Instruction: REVERT Solvable: True Essence Maximum: 141
+   Instruction: RETURN Solvable: False Essence Maximum: 1164
+   Instruction: RETURN Solvable: False Essence Maximum: 1319
+   Instruction: RETURN Solvable: False Essence Maximum: 1474
+   Instruction: RETURN Solvable: False Essence Maximum: 1629
+   Instruction: RETURN Solvable: False Essence Maximum: 1784
+   Instruction: RETURN Solvable: False Essence Maximum: 1939
+   Instruction: RETURN Solvable: False Essence Maximum: 2094
+   Instruction: RETURN Solvable: False Essence Maximum: 2249
+   Instruction: RETURN Solvable: False Essence Maximum: 2404
+   Instruction: REVERT Solvable: False Essence Maximum: 465
+   Instruction: RETURN Solvable: False Essence Maximum: 1553
+   Instruction: RETURN Solvable: False Essence Maximum: 1900
+   Instruction: RETURN Solvable: False Essence Maximum: 2247
+   Instruction: RETURN Solvable: False Essence Maximum: 2099
+   Instruction: RETURN Solvable: False Essence Maximum: 1752
+   Instruction: RETURN Solvable: False Essence Maximum: 2099
+   Instruction: RETURN Solvable: False Essence Maximum: 2298
+   Instruction: RETURN Solvable: False Essence Maximum: 1193
+   Instruction: REVERT Solvable: False Essence Maximum: 487
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 934 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: False Essence Maximum: 509
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 1412 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: False Essence Maximum: 531
+   Instruction: RETURN Solvable: False Essence Maximum: 1331
+   Instruction: RETURN Solvable: False Essence Maximum: 1339
+   Instruction: RETURN Solvable: False Essence Maximum: 1288
+   Instruction: REVERT Solvable: False Essence Maximum: 553
+   Instruction: RETURN Solvable: False Essence Maximum: 1901
+   Instruction: RETURN Solvable: False Essence Maximum: 2100
+   Instruction: RETURN Solvable: False Essence Maximum: 1541
+   Instruction: REVERT Solvable: False Essence Maximum: 575
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 1022 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: False Essence Maximum: 579
+   Instruction: REVERT Solvable: False Essence Maximum: 597
+   Instruction: RETURN Solvable: False Essence Maximum: 1420
+ Nombre total de chemins: 36
+   Essence Minimale: 141
+   Essence Maximale: 2404
+
+Fonction: 8940aebe
+   Instruction: REVERT Solvable: True Essence Maximum: 421
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 5564 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 5141 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 4718 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 4295 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3872 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3449 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3026 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 2603 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 2180 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 1757 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 1334 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 969
+ Nombre total de chemins: 13
+   Essence Minimale: 421
+   Essence Maximale: 5564
+
+Temps exécution: 1014.3725337982178
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 5-AirDrop
+adresse contrat: 0x20e2bf0fc47e65a3caa5e8e17c5cd730cc556db9
+
+Aucun vol d'essences détecté dans le contrat 5-AirDrop
+Appel autre contrat détecté
+Temps exécution: 16.882429599761963
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 6-EthTranchePricing
+adresse contrat: 0x37a2e0cdcc3dec87042dedfd32daca45d2089ecd
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 6-EthTranchePricing
+Fonction: 26c25962
+   Instruction: REVERT Solvable: True Essence Maximum: 242
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 286 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 1578
+ Nombre total de chemins: 3
+   Essence Minimale: 242
+   Essence Maximale: 1578
+
+Fonction: 6f079f90
+   Instruction: REVERT Solvable: True Essence Maximum: 308
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 1235 Type Vol: Instruction Invalide
+ Nombre total de chemins: 2
+   Essence Minimale: 308
+   Essence Maximale: 1235
+
+Fonction: d972e8ad
+   Instruction: REVERT Solvable: True Essence Maximum: 418
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 468 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 1805
+ Nombre total de chemins: 3
+   Essence Minimale: 418
+   Essence Maximale: 1805
+
+Temps exécution: 52.539466381073
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 7-ChickenFarm
+adresse contrat: 0x246a3CC8430909cB9b4ea2C55064045096656792
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 7-ChickenFarm
+Fonction: 7e56fde5
+   Instruction: REVERT Solvable: True Essence Maximum: 559
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3522 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3701 Type Vol: Instruction Invalide
+ Nombre total de chemins: 3
+   Essence Minimale: 559
+   Essence Maximale: 3701
+
+Fonction:
+   Instruction: REVERT Solvable: True Essence Maximum: 141
+   Instruction: RETURN Solvable: False Essence Maximum: 3037
+   Instruction: RETURN Solvable: False Essence Maximum: 3505
+   Instruction: RETURN Solvable: False Essence Maximum: 4149
+   Instruction: RETURN Solvable: False Essence Maximum: 4123
+   Instruction: RETURN Solvable: False Essence Maximum: 3137 Type Vol: Time Time
+   Instruction: REVERT Solvable: False Essence Maximum: 670
+   Instruction: REVERT Solvable: False Essence Maximum: 691
+   Instruction: RETURN Solvable: False Essence Maximum: 1454
+ Nombre total de chemins: 9
+   Essence Minimale: 141
+   Essence Maximale: 4149
+
+Fonction: 43ce7422
+   Instruction: REVERT Solvable: True Essence Maximum: 471
+   Instruction: RETURN Solvable: True Essence Maximum: 3682 Type Vol: Time
+   Instruction: RETURN Solvable: True Essence Maximum: 3692 Type Vol: Time Time
+ Nombre total de chemins: 3
+   Essence Minimale: 471
+   Essence Maximale: 3692
+
+Fonction: d7c8843b
+   Instruction: REVERT Solvable: True Essence Maximum: 669
+   Instruction: RETURN Solvable: True Essence Maximum: 3127 Type Vol: Time
+ Nombre total de chemins: 2
+   Essence Minimale: 669
+   Essence Maximale: 3127
+
+Fonction: 229824c4
+   Instruction: REVERT Solvable: True Essence Maximum: 295
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 2456 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 2635 Type Vol: Instruction Invalide
+ Nombre total de chemins: 3
+   Essence Minimale: 295
+   Essence Maximale: 2635
+
+Fonction: 3bc0461a
+   Instruction: REVERT Solvable: True Essence Maximum: 427
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 629 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 1107
+   Instruction: RETURN Solvable: True Essence Maximum: 1041
+ Nombre total de chemins: 4
+   Essence Minimale: 427
+   Essence Maximale: 1107
+
+Fonction: 8e316327
+   Instruction: REVERT Solvable: True Essence Maximum: 581
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3520 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3699 Type Vol: Instruction Invalide
+ Nombre total de chemins: 3
+   Essence Minimale: 581
+   Essence Maximale: 3699
+
+Fonction: 26fd8422
+   Instruction: REVERT Solvable: True Essence Maximum: 339
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 2900 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3079 Type Vol: Instruction Invalide
+ Nombre total de chemins: 3
+   Essence Minimale: 339
+   Essence Maximale: 3079
+
+Temps exécution: 601.2721190452576
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 8-Crowdsale
+adresse contrat: 0x2029f1376726e9b1e59a9eb0c40656f1949e6684
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 8-Crowdsale
+Fonction:
+   Instruction: REVERT Solvable: True Essence Maximum: 2296
+   Instruction: CALL Solvable: True Essence Maximum: 2299
+   Instruction: REVERT Solvable: True Essence Maximum: 37024
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 37402 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 38052 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 38036 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 37986 Type Vol: Instruction Invalide
+   Instruction: STOP Solvable: False Essence Maximum: 200817
+   Instruction: REVERT Solvable: False Essence Maximum: 686
+   Instruction: REVERT Solvable: False Essence Maximum: 2775
+   Instruction: CALL Solvable: False Essence Maximum: 2778
+   Instruction: REVERT Solvable: False Essence Maximum: 37503
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 37881 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 38531 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 38515 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 38465 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: False Essence Maximum: 622
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 812 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 1462 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 1446 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 1396 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: False Essence Maximum: 644
+   Instruction: RETURN Solvable: False Essence Maximum: 1427
+   Instruction: REVERT Solvable: False Essence Maximum: 666
+   Instruction: REVERT Solvable: False Essence Maximum: 1527
+   Instruction: REVERT Solvable: False Essence Maximum: 688
+   Instruction: RETURN Solvable: False Essence Maximum: 1446
+   Instruction: REVERT Solvable: False Essence Maximum: 710
+   Instruction: RETURN Solvable: False Essence Maximum: 1846
+   Instruction: REVERT Solvable: False Essence Maximum: 2847
+   Instruction: CALL Solvable: False Essence Maximum: 2850
+   Instruction: REVERT Solvable: False Essence Maximum: 37575
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 37953 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 38603 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 38587 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 38537 Type Vol: Instruction Invalide
+ Nombre total de chemins: 36
+   Essence Minimale: 622
+   Essence Maximale: 200817
+
+Fonction: 4aa66b28
+   Instruction: REVERT Solvable: True Essence Maximum: 314
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 951 Type Vol: Instruction Invalide
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 935 Type Vol: Instruction Invalide
+ Nombre total de chemins: 3
+   Essence Minimale: 314
+   Essence Maximale: 951
+
+Fonction: 65c40b07
+   Instruction: REVERT Solvable: True Essence Maximum: 380
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 858 Type Vol: Instruction Invalide
+ Nombre total de chemins: 2
+   Essence Minimale: 380
+   Essence Maximale: 858
+
+Fonction: 0b151811
+   Instruction: REVERT Solvable: True Essence Maximum: 204
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 724 Type Vol: Instruction Invalide
+ Nombre total de chemins: 2
+   Essence Minimale: 204
+   Essence Maximale: 724
+
+Appel autre contrat détecté
+Temps exécution: 617.980678319931
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 9-lockEtherPay
+adresse contrat: 0x38383c8ef701938d52b98cbc818d923b38473f6d
+
+Aucun vol d'essences détecté dans le contrat 9-lockEtherPay
+Appel autre contrat détecté
+Temps exécution: 45.52258515357971
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 10-BarterCoin
+adresse contrat: 0x3989167193214886330c3e4b5535428e168cf6bd
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 10-BarterCoin
+Fonction: 23b872dd
+   Instruction: REVERT Solvable: True Essence Maximum: 270
+   Instruction: REVERT Solvable: True Essence Maximum: 429
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 2141 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 81714
+ Nombre total de chemins: 4
+   Essence Minimale: 270
+   Essence Maximale: 81714
+
+Fonction: a9059cbb
+   Instruction: REVERT Solvable: True Essence Maximum: 402
+   Instruction: REVERT Solvable: True Essence Maximum: 528
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 1272 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 55165
+ Nombre total de chemins: 4
+   Essence Minimale: 402
+   Essence Maximale: 55165
+
+Temps exécution: 61.46728730201721
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 11-NeobitTokens
+adresse contrat: 0x4fe3c4e0c8fcf9ef23b1391cad0205b3e338e013
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 11-NeobitTokens
+Fonction:
+   Instruction: REVERT Solvable: True Essence Maximum: 1007 Type Vol: Time
+   Instruction: CALL Solvable: True Essence Maximum: 56148 Type Vol: Time Time
+   Instruction: REVERT Solvable: True Essence Maximum: 90897 Type Vol: Time Time
+   Instruction: STOP Solvable: True Essence Maximum: 90886 Type Vol: Time Time
+   Instruction: REVERT Solvable: False Essence Maximum: 27512
+   Instruction: REVERT Solvable: False Essence Maximum: 53865
+   Instruction: REVERT Solvable: False Essence Maximum: 33671
+   Instruction: CALL Solvable: False Essence Maximum: 33670
+   Instruction: REVERT Solvable: False Essence Maximum: 68408
+   Instruction: RETURN Solvable: False Essence Maximum: 68772
+   Instruction: CALL Solvable: False Essence Maximum: 33618
+   Instruction: REVERT Solvable: False Essence Maximum: 68356
+   Instruction: RETURN Solvable: False Essence Maximum: 68720
+   Instruction: REVERT Solvable: False Essence Maximum: 34203
+   Instruction: CALL Solvable: False Essence Maximum: 34202
+   Instruction: REVERT Solvable: False Essence Maximum: 68940
+   Instruction: RETURN Solvable: False Essence Maximum: 69304
+   Instruction: REVERT Solvable: False Essence Maximum: 33885
+   Instruction: CALL Solvable: False Essence Maximum: 33884
+   Instruction: REVERT Solvable: False Essence Maximum: 68622
+   Instruction: RETURN Solvable: False Essence Maximum: 68986
+   Instruction: REVERT Solvable: False Essence Maximum: 34469
+   Instruction: CALL Solvable: False Essence Maximum: 34468
+   Instruction: REVERT Solvable: False Essence Maximum: 69206
+   Instruction: RETURN Solvable: False Essence Maximum: 69570
+   Instruction: REVERT Solvable: False Essence Maximum: 34151
+   Instruction: CALL Solvable: False Essence Maximum: 34150
+   Instruction: REVERT Solvable: False Essence Maximum: 68888
+   Instruction: RETURN Solvable: False Essence Maximum: 69252
+   Instruction: REVERT Solvable: False Essence Maximum: 34735
+   Instruction: CALL Solvable: False Essence Maximum: 34734
+   Instruction: REVERT Solvable: False Essence Maximum: 69472
+   Instruction: RETURN Solvable: False Essence Maximum: 69836
+   Instruction: REVERT Solvable: False Essence Maximum: 34417
+   Instruction: CALL Solvable: False Essence Maximum: 34416
+   Instruction: REVERT Solvable: False Essence Maximum: 69154
+   Instruction: RETURN Solvable: False Essence Maximum: 69518
+   Instruction: REVERT Solvable: False Essence Maximum: 35001
+   Instruction: CALL Solvable: False Essence Maximum: 35000
+   Instruction: REVERT Solvable: False Essence Maximum: 69738
+   Instruction: RETURN Solvable: False Essence Maximum: 70102
+   Instruction: REVERT Solvable: False Essence Maximum: 34683
+   Instruction: CALL Solvable: False Essence Maximum: 34682
+   Instruction: REVERT Solvable: False Essence Maximum: 69420
+   Instruction: RETURN Solvable: False Essence Maximum: 69784
+   Instruction: REVERT Solvable: False Essence Maximum: 35267
+   Instruction: CALL Solvable: False Essence Maximum: 35266
+   Instruction: REVERT Solvable: False Essence Maximum: 70004
+   Instruction: RETURN Solvable: False Essence Maximum: 70368
+   Instruction: REVERT Solvable: False Essence Maximum: 34949
+   Instruction: CALL Solvable: False Essence Maximum: 34948
+   Instruction: REVERT Solvable: False Essence Maximum: 69686
+   Instruction: RETURN Solvable: False Essence Maximum: 70050
+   Instruction: REVERT Solvable: False Essence Maximum: 35533
+   Instruction: CALL Solvable: False Essence Maximum: 35532
+   Instruction: REVERT Solvable: False Essence Maximum: 70270
+   Instruction: RETURN Solvable: False Essence Maximum: 70634
+   Instruction: REVERT Solvable: False Essence Maximum: 35215
+   Instruction: CALL Solvable: False Essence Maximum: 35214
+   Instruction: REVERT Solvable: False Essence Maximum: 69952
+   Instruction: RETURN Solvable: False Essence Maximum: 70316
+   Instruction: REVERT Solvable: False Essence Maximum: 35799
+   Instruction: CALL Solvable: False Essence Maximum: 35798
+   Instruction: REVERT Solvable: False Essence Maximum: 70536
+   Instruction: RETURN Solvable: False Essence Maximum: 70900
+   Instruction: REVERT Solvable: False Essence Maximum: 35481
+   Instruction: CALL Solvable: False Essence Maximum: 35480
+   Instruction: REVERT Solvable: False Essence Maximum: 70218
+   Instruction: RETURN Solvable: False Essence Maximum: 70582
+   Instruction: REVERT Solvable: False Essence Maximum: 36065
+   Instruction: CALL Solvable: False Essence Maximum: 36064
+   Instruction: REVERT Solvable: False Essence Maximum: 70802
+   Instruction: RETURN Solvable: False Essence Maximum: 71166
+   Instruction: REVERT Solvable: False Essence Maximum: 35747
+   Instruction: CALL Solvable: False Essence Maximum: 35746
+   Instruction: REVERT Solvable: False Essence Maximum: 70484
+   Instruction: RETURN Solvable: False Essence Maximum: 70848
+   Instruction: REVERT Solvable: False Essence Maximum: 36331
+   Instruction: CALL Solvable: False Essence Maximum: 36330
+   Instruction: REVERT Solvable: False Essence Maximum: 71068
+   Instruction: RETURN Solvable: False Essence Maximum: 71432
+   Instruction: REVERT Solvable: False Essence Maximum: 36013
+   Instruction: CALL Solvable: False Essence Maximum: 36012
+   Instruction: REVERT Solvable: False Essence Maximum: 70750
+   Instruction: RETURN Solvable: False Essence Maximum: 71114
+   Instruction: REVERT Solvable: False Essence Maximum: 36597
+   Instruction: CALL Solvable: False Essence Maximum: 36596
+   Instruction: REVERT Solvable: False Essence Maximum: 71334
+   Instruction: RETURN Solvable: False Essence Maximum: 71698
+   Instruction: REVERT Solvable: False Essence Maximum: 36279
+   Instruction: CALL Solvable: False Essence Maximum: 36278
+   Instruction: REVERT Solvable: False Essence Maximum: 71016
+   Instruction: RETURN Solvable: False Essence Maximum: 71380
+   Instruction: REVERT Solvable: False Essence Maximum: 36863
+   Instruction: CALL Solvable: False Essence Maximum: 36862
+   Instruction: REVERT Solvable: False Essence Maximum: 71600
+   Instruction: RETURN Solvable: False Essence Maximum: 71964
+   Instruction: REVERT Solvable: False Essence Maximum: 36545
+   Instruction: CALL Solvable: False Essence Maximum: 36544
+   Instruction: REVERT Solvable: False Essence Maximum: 71282
+   Instruction: RETURN Solvable: False Essence Maximum: 71646
+   Instruction: REVERT Solvable: False Essence Maximum: 37129
+   Instruction: CALL Solvable: False Essence Maximum: 37128
+   Instruction: REVERT Solvable: False Essence Maximum: 71866
+   Instruction: RETURN Solvable: False Essence Maximum: 72230
+   Instruction: REVERT Solvable: False Essence Maximum: 36811
+   Instruction: CALL Solvable: False Essence Maximum: 36810
+   Instruction: REVERT Solvable: False Essence Maximum: 37395
+   Instruction: CALL Solvable: False Essence Maximum: 37394
+   Instruction: REVERT Solvable: False Essence Maximum: 537
+   Instruction: RETURN Solvable: False Essence Maximum: 1678
+   Instruction: REVERT Solvable: False Essence Maximum: 559
+   Instruction: REVERT Solvable: False Essence Maximum: 1474
+   Instruction: REVERT Solvable: False Essence Maximum: 581
+   Instruction: RETURN Solvable: False Essence Maximum: 2014
+   Instruction: REVERT Solvable: False Essence Maximum: 603
+   Instruction: REVERT Solvable: False Essence Maximum: 1488
+   Instruction: REVERT Solvable: False Essence Maximum: 1448 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 56589 Type Vol: Time Time
+   Instruction: REVERT Solvable: False Essence Maximum: 91338 Type Vol: Time Time
+   Instruction: STOP Solvable: False Essence Maximum: 91327 Type Vol: Time Time
+ Nombre total de chemins: 121
+   Essence Minimale: 537
+   Essence Maximale: 91338
+
+Appel autre contrat détecté
+Temps exécution: 7202.516344070435
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 12-LightYears
+adresse contrat: 0x6a3d166e417f578c6fa6581e529fd407be0f76df
+
+Aucun vol d'essences détecté dans le contrat 12-LightYears
+Appel autre contrat détecté
+Temps exécution: 7300.800626754761
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 13-DonationWallet
+adresse contrat: 0x7a078d85ff5fb35e2595345c0a96a111f4c793f7
+
+Aucun vol d'essences détecté dans le contrat 13-DonationWallet
+Appel autre contrat détecté
+Temps exécution: 218.58449959754944
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 14-COSHATokenCNY
+adresse contrat: 0x44d2ff4a96ba416554951f28d239cad0abd2800d
+
+Aucun vol d'essences détecté dans le contrat 14-COSHATokenCNY
+Temps exécution: 17457.761548280716
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 15-RequestBitcoinNodesValidation
+adresse contrat: 0x60fc18f243656532fce2265a5278d95cb3afa034
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 15-RequestBitcoinNodesValidation
+Fonction:
+   Instruction: REVERT Solvable: False Essence Maximum: 141
+   Instruction: REVERT Solvable: False Essence Maximum: 204
+   Instruction: RETURN Solvable: False Essence Maximum: 2442
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 825 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: False Essence Maximum: 2484
+   Instruction: RETURN Solvable: False Essence Maximum: 651
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 11997 Type Vol: Instruction Invalide Time
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 12275 Type Vol: Instruction Invalide Time
+   Instruction: REVERT Solvable: False Essence Maximum: 12508 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 12840 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13175 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 15171 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 49896 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 12386 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 12718 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13053 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 15049 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 49774 Type Vol: Time
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 12279 Type Vol: Instruction Invalide Time
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 12557 Type Vol: Instruction Invalide Time
+   Instruction: REVERT Solvable: False Essence Maximum: 12790 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13122 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13457 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 15453 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 50178 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 12668 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13000 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13335 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 15331 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 50056 Type Vol: Time
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 12561 Type Vol: Instruction Invalide Time
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 12839 Type Vol: Instruction Invalide Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13072 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13404 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13739 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 15735 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 50460 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 12950 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13282 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13617 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 15613 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 50338 Type Vol: Time
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 12843 Type Vol: Instruction Invalide Time
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 13121 Type Vol: Instruction Invalide Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13354 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13686 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 14021 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 16017 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 50742 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13232 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13564 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13899 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 15895 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 50620 Type Vol: Time
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 13125 Type Vol: Instruction Invalide Time
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 13403 Type Vol: Instruction Invalide Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13636 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13968 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 14303 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 16299 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 51024 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13514 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 13846 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 14181 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 16177 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 50902 Type Vol: Time
+ Nombre total de chemins: 66
+   Essence Minimale: 141
+   Essence Maximale: 51024
+
+Appel autre contrat détecté
+Temps exécution: 1575.7583668231964
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 16-SetherToken
+adresse contrat: 0x78b039921e84e726eb72e7b1212bb35504c645ca
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 16-SetherToken
+Fonction: 23b872dd
+   Instruction: REVERT Solvable: True Essence Maximum: 289
+   Instruction: REVERT Solvable: True Essence Maximum: 1070
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 3074 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 83414
+ Nombre total de chemins: 4
+   Essence Minimale: 289
+   Essence Maximale: 83414
+
+Fonction: a9059cbb
+   Instruction: REVERT Solvable: True Essence Maximum: 465
+   Instruction: REVERT Solvable: True Essence Maximum: 1228
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 2294 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 56674
+ Nombre total de chemins: 4
+   Essence Minimale: 465
+   Essence Maximale: 56674
+
+Temps exécution: 69.01911497116089
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 17-NVISIONCASH
+adresse contrat: 0x643e7c00f3e3e67a635cfbbea615fba047af4f42
+
+Aucun vol d'essences détecté dans le contrat 17-NVISIONCASH
+Appel autre contrat détecté
+Temps exécution: 6279.237899780273
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 18-GdprCrowdsale
+adresse contrat: 0x6102a380791a5edfb04bb3e18ea15812a5b82e71
+
+Aucun vol d'essences détecté dans le contrat 18-GdprCrowdsale
+Temps exécution: 68.71314740180969
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 19-ExploreCoin
+adresse contrat: 0x78219a78b338ee760dff8d1f3e086ceb028a7aa5
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 19-ExploreCoin
+Fonction: 5ebdd159
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 327 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 1617
+ Nombre total de chemins: 2
+   Essence Minimale: 327
+   Essence Maximale: 1617
+
+Fonction: f2fde38b
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 481 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: True Essence Maximum: 1348
+ Nombre total de chemins: 2
+   Essence Minimale: 481
+   Essence Maximale: 1348
+
+Fonction: dd62ed3e
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 459 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 1869
+ Nombre total de chemins: 2
+   Essence Minimale: 459
+   Essence Maximale: 1869
+
+Fonction: 313ce567
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 283 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 1047
+ Nombre total de chemins: 2
+   Essence Minimale: 283
+   Essence Maximale: 1047
+
+Fonction: 095ea7b3
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 217 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 28355
+ Nombre total de chemins: 2
+   Essence Minimale: 217
+   Essence Maximale: 28355
+
+Fonction: 18160ddd
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 239 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 1012
+ Nombre total de chemins: 2
+   Essence Minimale: 239
+   Essence Maximale: 1012
+
+Fonction: 95d89b41
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 371 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 2447
+ Nombre total de chemins: 2
+   Essence Minimale: 371
+   Essence Maximale: 2447
+
+Fonction: 06fdde03
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 195 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 2271
+ Nombre total de chemins: 2
+   Essence Minimale: 195
+   Essence Maximale: 2271
+
+Fonction: a9059cbb
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 393 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: True Essence Maximum: 529
+   Instruction: RETURN Solvable: True Essence Maximum: 1659
+   Instruction: RETURN Solvable: True Essence Maximum: 1670
+ Nombre total de chemins: 4
+   Essence Minimale: 393
+   Essence Maximale: 1670
+
+Fonction: 23b872dd
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 261 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: True Essence Maximum: 427
+   Instruction: RETURN Solvable: True Essence Maximum: 1580
+   Instruction: RETURN Solvable: True Essence Maximum: 2564
+ Nombre total de chemins: 4
+   Essence Minimale: 261
+   Essence Maximale: 2564
+
+Fonction: 70a08231
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 349 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 1447
+ Nombre total de chemins: 2
+   Essence Minimale: 349
+   Essence Maximale: 1447
+
+Fonction: c763400e
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 437 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: True Essence Maximum: 1304
+ Nombre total de chemins: 2
+   Essence Minimale: 437
+   Essence Maximale: 1304
+
+Fonction: b387ef92
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 415 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: True Essence Maximum: 1245
+ Nombre total de chemins: 2
+   Essence Minimale: 415
+   Essence Maximale: 1245
+
+Fonction: 519ee19e
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 305 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 1069
+ Nombre total de chemins: 2
+   Essence Minimale: 305
+   Essence Maximale: 1069
+
+Temps exécution: 49.84793972969055
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 20-Anaco_Airdrop
+adresse contrat: 0x791107901275227069ae882990a5aaff51cd658a
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 20-Anaco_Airdrop
+Fonction:
+   Instruction: REVERT Solvable: True Essence Maximum: 162
+   Instruction: REVERT Solvable: True Essence Maximum: 165
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 885 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: False Essence Maximum: 3810
+   Instruction: CALL Solvable: False Essence Maximum: 3809
+   Instruction: REVERT Solvable: False Essence Maximum: 38547
+   Instruction: REVERT Solvable: False Essence Maximum: 38672
+   Instruction: STOP Solvable: False Essence Maximum: 38682
+   Instruction: REVERT Solvable: False Essence Maximum: 358
+   Instruction: RETURN Solvable: False Essence Maximum: 1114
+   Instruction: REVERT Solvable: False Essence Maximum: 380
+   Instruction: REVERT Solvable: False Essence Maximum: 1535
+   Instruction: REVERT Solvable: False Essence Maximum: 380
+   Instruction: REVERT Solvable: False Essence Maximum: 383
+ Nombre total de chemins: 14
+   Essence Minimale: 162
+   Essence Maximale: 38682
+
+Appel autre contrat détecté
+Temps exécution: 601.4333629608154
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 21-OneMonthLockup
+adresse contrat: 0x8f45471d4a900f91996871fbfbc2e1d076d936c0
+
+Aucun vol d'essences détecté dans le contrat 21-OneMonthLockup
+Appel autre contrat détecté
+Temps exécution: 20.4566433429718
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 22-BancorMarketMaker
+adresse contrat: 0x9fa14ed09da35b21a764e7c7f7724c70a26b6bfb
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 22-BancorMarketMaker
+Fonction: 325add98
+   Instruction: REVERT Solvable: True Essence Maximum: 563
+   Instruction: REVERT Solvable: True Essence Maximum: 962
+   Instruction: REVERT Solvable: True Essence Maximum: 3308
+   Instruction: CALL Solvable: True Essence Maximum: 3311
+   Instruction: REVERT Solvable: True Essence Maximum: 38036
+   Instruction: CALL Solvable: True Essence Maximum: 40452
+   Instruction: REVERT Solvable: True Essence Maximum: 75177
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 75528 Type Vol: Instruction Invalide
+ Nombre total de chemins: 8
+   Essence Minimale: 563
+   Essence Maximale: 75528
+
+Fonction: abbef24e
+   Instruction: REVERT Solvable: True Essence Maximum: 1002
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 1124 Type Vol: Instruction Invalide
+ Nombre total de chemins: 2
+   Essence Minimale: 1002
+   Essence Maximale: 1124
+
+Appel autre contrat détecté
+Temps exécution: 33.819470167160034
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 23-CAVAsset
+adresse contrat: 0x96b2cd70523aefe92e1cb56de72856ea30498547
+
+
+Aucun vol d'essences détecté dans le contrat 23-CAVAsset
+Appel autre contrat détecté
+Temps exécution: 2615.402750968933
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 24-EtherScrolls
+adresse contrat: 0x992d6d699d3f7c627a9be1a5f6020a05ecb86200
+
+Aucun vol d'essences détecté dans le contrat 24-EtherScrolls
+Appel autre contrat détecté
+Temps exécution: 269.85931277275085
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 25-MyAdvancedToken
+adresse contrat: 0x8912358D977e123b51EcAd1fFA0cC4A7e32FF774
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 25-MyAdvancedToken
+Fonction: a6f2ae3a
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 927 Type Vol: Instruction Invalide
+ Nombre total de chemins: 1
+   Essence Minimale: 927
+   Essence Maximale: 927
+
+Appel autre contrat détecté
+Temps exécution: 4292.638993740082
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 26-AuctusPreSaleDistribution
+adresse contrat: 0xa39ca2768a7b76aa3bcab68c4d4debf9a32c5434
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 26-AuctusPreSaleDistribution
+Fonction: 1223f290
+   Instruction: REVERT Solvable: True Essence Maximum: 544
+   Instruction: REVERT Solvable: True Essence Maximum: 4615
+   Instruction: CALL Solvable: True Essence Maximum: 4612
+   Instruction: REVERT Solvable: True Essence Maximum: 39337
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 66064 Type Vol: Instruction Invalide
+ Nombre total de chemins: 5
+   Essence Minimale: 544
+   Essence Maximale: 66064
+
+Appel autre contrat détecté
+Temps exécution: 35.33866858482361
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 27-CGCGToken
+adresse contrat: 0xaa561f3baafda7336d6830e5de58dc32f176f661
+
+Aucun vol d'essences détecté dans le contrat 27-CGCGToken
+Temps exécution: 42.399118185043335
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 28-GodviewChain
+adresse contrat: 0xb3bc2C53a02B7c09a2A4957B195B202585138fb4
+
+Aucun vol d'essences détecté dans le contrat 28-GodviewChain
+Appel autre contrat détecté
+Temps exécution: 6716.50031709671
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 29-LoopringProtocolImpl
+adresse contrat: 0xb1170de31c7f72ab62535862c97f5209e356991b
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 29-LoopringProtocolImpl
+Fonction:
+   Instruction: REVERT Solvable: False Essence Maximum: 141
+   Instruction: REVERT Solvable: False Essence Maximum: 544
+   Instruction: RETURN Solvable: False Essence Maximum: 901
+   Instruction: REVERT Solvable: False Essence Maximum: 566
+   Instruction: RETURN Solvable: False Essence Maximum: 1329
+   Instruction: REVERT Solvable: False Essence Maximum: 588
+   Instruction: RETURN Solvable: False Essence Maximum: 936
+   Instruction: REVERT Solvable: False Essence Maximum: 610
+   Instruction: RETURN Solvable: False Essence Maximum: 1316
+   Instruction: REVERT Solvable: False Essence Maximum: 632
+   Instruction: RETURN Solvable: False Essence Maximum: 1338
+   Instruction: REVERT Solvable: False Essence Maximum: 654
+   Instruction: RETURN Solvable: False Essence Maximum: 1360
+   Instruction: REVERT Solvable: False Essence Maximum: 676
+   Instruction: REVERT Solvable: False Essence Maximum: 3133
+   Instruction: CALL Solvable: False Essence Maximum: 3130
+   Instruction: REVERT Solvable: False Essence Maximum: 37855
+   Instruction: RETURN Solvable: False Essence Maximum: 38403
+   Instruction: REVERT Solvable: False Essence Maximum: 698
+   Instruction: REVERT Solvable: False Essence Maximum: 3203
+   Instruction: CALL Solvable: False Essence Maximum: 3200
+   Instruction: REVERT Solvable: False Essence Maximum: 37925
+   Instruction: REVERT Solvable: False Essence Maximum: 38157 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 40159 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 74884 Type Vol: Time
+   Instruction: STOP Solvable: False Essence Maximum: 77575 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 3216 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 3213 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 37938 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 38170 Type Vol: Time Time
+   Instruction: CALL Solvable: False Essence Maximum: 40172 Type Vol: Time Time
+   Instruction: REVERT Solvable: False Essence Maximum: 74897 Type Vol: Time Time
+   Instruction: STOP Solvable: False Essence Maximum: 77588 Type Vol: Time Time
+   Instruction: REVERT Solvable: False Essence Maximum: 3227 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 3224 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 37949 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 38181 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 40183 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 74908 Type Vol: Time
+   Instruction: STOP Solvable: False Essence Maximum: 77599 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 720
+   Instruction: REVERT Solvable: False Essence Maximum: 5255
+   Instruction: REVERT Solvable: False Essence Maximum: 9233
+   Instruction: CALL Solvable: False Essence Maximum: 14467
+   Instruction: REVERT Solvable: False Essence Maximum: 52781
+   Instruction: REVERT Solvable: False Essence Maximum: 742
+   Instruction: RETURN Solvable: False Essence Maximum: 1090
+   Instruction: REVERT Solvable: False Essence Maximum: 764
+   Instruction: REVERT Solvable: False Essence Maximum: 2738
+   Instruction: CALL Solvable: False Essence Maximum: 2735
+   Instruction: REVERT Solvable: False Essence Maximum: 37460
+   Instruction: REVERT Solvable: False Essence Maximum: 37692 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 39578 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 74303 Type Vol: Time
+   Instruction: STOP Solvable: False Essence Maximum: 76383 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 2751 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 2748 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 37473 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 37705 Type Vol: Time Time
+   Instruction: CALL Solvable: False Essence Maximum: 39591 Type Vol: Time Time
+   Instruction: REVERT Solvable: False Essence Maximum: 74316 Type Vol: Time Time
+   Instruction: STOP Solvable: False Essence Maximum: 76396 Type Vol: Time Time
+   Instruction: REVERT Solvable: False Essence Maximum: 2762 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 2759 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 37484 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 37716 Type Vol: Time
+   Instruction: CALL Solvable: False Essence Maximum: 39602 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 74327 Type Vol: Time
+   Instruction: STOP Solvable: False Essence Maximum: 76407 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 786
+   Instruction: RETURN Solvable: False Essence Maximum: 1534
+   Instruction: REVERT Solvable: False Essence Maximum: 43772
+   Instruction: REVERT Solvable: False Essence Maximum: 43993
+   Instruction: REVERT Solvable: False Essence Maximum: 44214
+   Instruction: REVERT Solvable: False Essence Maximum: 44435
+   Instruction: REVERT Solvable: False Essence Maximum: 44656
+   Instruction: REVERT Solvable: False Essence Maximum: 44944
+   Instruction: REVERT Solvable: False Essence Maximum: 45060
+   Instruction: REVERT Solvable: False Essence Maximum: 45745
+   Instruction: REVERT Solvable: False Essence Maximum: 45966
+   Instruction: REVERT Solvable: False Essence Maximum: 46187
+   Instruction: REVERT Solvable: False Essence Maximum: 46512
+   Instruction: REVERT Solvable: False Essence Maximum: 46733
+   Instruction: REVERT Solvable: False Essence Maximum: 46954
+   Instruction: REVERT Solvable: False Essence Maximum: 47175
+   Instruction: REVERT Solvable: False Essence Maximum: 47396
+   Instruction: REVERT Solvable: False Essence Maximum: 47684
+   Instruction: REVERT Solvable: False Essence Maximum: 47800
+   Instruction: REVERT Solvable: False Essence Maximum: 48485
+   Instruction: REVERT Solvable: False Essence Maximum: 48706
+   Instruction: REVERT Solvable: False Essence Maximum: 48927
+   Instruction: REVERT Solvable: False Essence Maximum: 49252
+   Instruction: REVERT Solvable: False Essence Maximum: 49473
+   Instruction: REVERT Solvable: False Essence Maximum: 49694
+   Instruction: REVERT Solvable: False Essence Maximum: 49915
+   Instruction: REVERT Solvable: False Essence Maximum: 50136
+   Instruction: REVERT Solvable: False Essence Maximum: 50424
+   Instruction: REVERT Solvable: False Essence Maximum: 50540
+   Instruction: REVERT Solvable: False Essence Maximum: 51225
+   Instruction: REVERT Solvable: False Essence Maximum: 51446
+   Instruction: REVERT Solvable: False Essence Maximum: 51667
+   Instruction: REVERT Solvable: False Essence Maximum: 51992
+   Instruction: REVERT Solvable: False Essence Maximum: 52213
+   Instruction: REVERT Solvable: False Essence Maximum: 52434
+   Instruction: REVERT Solvable: False Essence Maximum: 52655
+   Instruction: REVERT Solvable: False Essence Maximum: 52876
+   Instruction: REVERT Solvable: False Essence Maximum: 53164
+   Instruction: REVERT Solvable: False Essence Maximum: 53280
+   Instruction: REVERT Solvable: False Essence Maximum: 53965
+   Instruction: REVERT Solvable: False Essence Maximum: 54186
+   Instruction: REVERT Solvable: False Essence Maximum: 54407
+   Instruction: REVERT Solvable: False Essence Maximum: 54732
+   Instruction: REVERT Solvable: False Essence Maximum: 54953
+   Instruction: REVERT Solvable: False Essence Maximum: 55174
+   Instruction: REVERT Solvable: False Essence Maximum: 55395
+   Instruction: REVERT Solvable: False Essence Maximum: 55616
+   Instruction: REVERT Solvable: False Essence Maximum: 55904
+   Instruction: REVERT Solvable: False Essence Maximum: 56020
+   Instruction: REVERT Solvable: False Essence Maximum: 56705
+   Instruction: REVERT Solvable: False Essence Maximum: 56926
+   Instruction: REVERT Solvable: False Essence Maximum: 57472
+   Instruction: REVERT Solvable: False Essence Maximum: 57693
+   Instruction: REVERT Solvable: False Essence Maximum: 57914
+   Instruction: REVERT Solvable: False Essence Maximum: 58135
+   Instruction: REVERT Solvable: False Essence Maximum: 58356
+   Instruction: REVERT Solvable: False Essence Maximum: 58644
+   Instruction: REVERT Solvable: False Essence Maximum: 58760
+ Nombre total de chemins: 127
+   Essence Minimale: 141
+   Essence Maximale: 77599
+
+Appel autre contrat détecté
+Temps exécution: 3177.3677566051483
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 30-PixoArenaFounderToken
+adresse contrat: 0xbdd021489de3f083e5aaa2d8cb6ba62db2902485
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 30-PixoArenaFounderToken
+Fonction:
+   Instruction: REVERT Solvable: True Essence Maximum: 1007 Type Vol: Time
+   Instruction: REVERT Solvable: True Essence Maximum: 1038 Type Vol: Time
+   Instruction: STOP Solvable: True Essence Maximum: 55162 Type Vol: Time Time
+   Instruction: REVERT Solvable: False Essence Maximum: 27534
+   Instruction: REVERT Solvable: False Essence Maximum: 53887
+   Instruction: REVERT Solvable: False Essence Maximum: 33715
+   Instruction: CALL Solvable: False Essence Maximum: 33714
+   Instruction: REVERT Solvable: False Essence Maximum: 68452
+   Instruction: RETURN Solvable: False Essence Maximum: 68816
+   Instruction: RETURN Solvable: False Essence Maximum: 68764
+   Instruction: REVERT Solvable: False Essence Maximum: 34247
+   Instruction: CALL Solvable: False Essence Maximum: 34246
+   Instruction: REVERT Solvable: False Essence Maximum: 68984
+   Instruction: RETURN Solvable: False Essence Maximum: 69348
+   Instruction: REVERT Solvable: False Essence Maximum: 33929
+   Instruction: CALL Solvable: False Essence Maximum: 33928
+   Instruction: REVERT Solvable: False Essence Maximum: 68666
+   Instruction: RETURN Solvable: False Essence Maximum: 69030
+   Instruction: REVERT Solvable: False Essence Maximum: 34513
+   Instruction: CALL Solvable: False Essence Maximum: 34512
+   Instruction: REVERT Solvable: False Essence Maximum: 69250
+   Instruction: RETURN Solvable: False Essence Maximum: 69614
+   Instruction: REVERT Solvable: False Essence Maximum: 34195
+   Instruction: CALL Solvable: False Essence Maximum: 34194
+   Instruction: REVERT Solvable: False Essence Maximum: 68932
+   Instruction: RETURN Solvable: False Essence Maximum: 69296
+   Instruction: REVERT Solvable: False Essence Maximum: 34779
+   Instruction: CALL Solvable: False Essence Maximum: 34778
+   Instruction: REVERT Solvable: False Essence Maximum: 69516
+   Instruction: RETURN Solvable: False Essence Maximum: 69880
+   Instruction: REVERT Solvable: False Essence Maximum: 34461
+   Instruction: CALL Solvable: False Essence Maximum: 34460
+   Instruction: REVERT Solvable: False Essence Maximum: 69198
+   Instruction: RETURN Solvable: False Essence Maximum: 69562
+   Instruction: REVERT Solvable: False Essence Maximum: 35045
+   Instruction: CALL Solvable: False Essence Maximum: 35044
+   Instruction: REVERT Solvable: False Essence Maximum: 69782
+   Instruction: RETURN Solvable: False Essence Maximum: 70146
+   Instruction: REVERT Solvable: False Essence Maximum: 34727
+   Instruction: CALL Solvable: False Essence Maximum: 34726
+   Instruction: REVERT Solvable: False Essence Maximum: 69464
+   Instruction: RETURN Solvable: False Essence Maximum: 69828
+   Instruction: REVERT Solvable: False Essence Maximum: 35311
+   Instruction: CALL Solvable: False Essence Maximum: 35310
+   Instruction: REVERT Solvable: False Essence Maximum: 70048
+   Instruction: RETURN Solvable: False Essence Maximum: 70412
+   Instruction: REVERT Solvable: False Essence Maximum: 34993
+   Instruction: CALL Solvable: False Essence Maximum: 34992
+   Instruction: REVERT Solvable: False Essence Maximum: 69730
+   Instruction: RETURN Solvable: False Essence Maximum: 70094
+   Instruction: REVERT Solvable: False Essence Maximum: 35577
+   Instruction: CALL Solvable: False Essence Maximum: 35576
+   Instruction: REVERT Solvable: False Essence Maximum: 70314
+   Instruction: RETURN Solvable: False Essence Maximum: 70678
+   Instruction: REVERT Solvable: False Essence Maximum: 35259
+   Instruction: CALL Solvable: False Essence Maximum: 35258
+   Instruction: REVERT Solvable: False Essence Maximum: 69996
+   Instruction: RETURN Solvable: False Essence Maximum: 70360
+   Instruction: REVERT Solvable: False Essence Maximum: 35843
+   Instruction: CALL Solvable: False Essence Maximum: 35842
+   Instruction: REVERT Solvable: False Essence Maximum: 70580
+   Instruction: RETURN Solvable: False Essence Maximum: 70944
+   Instruction: REVERT Solvable: False Essence Maximum: 35525
+   Instruction: CALL Solvable: False Essence Maximum: 35524
+   Instruction: REVERT Solvable: False Essence Maximum: 70262
+   Instruction: RETURN Solvable: False Essence Maximum: 70626
+   Instruction: REVERT Solvable: False Essence Maximum: 36109
+   Instruction: CALL Solvable: False Essence Maximum: 36108
+   Instruction: REVERT Solvable: False Essence Maximum: 70846
+   Instruction: RETURN Solvable: False Essence Maximum: 71210
+   Instruction: REVERT Solvable: False Essence Maximum: 35791
+   Instruction: CALL Solvable: False Essence Maximum: 35790
+   Instruction: REVERT Solvable: False Essence Maximum: 70528
+   Instruction: RETURN Solvable: False Essence Maximum: 70892
+   Instruction: REVERT Solvable: False Essence Maximum: 36375
+   Instruction: CALL Solvable: False Essence Maximum: 36374
+   Instruction: REVERT Solvable: False Essence Maximum: 71112
+   Instruction: RETURN Solvable: False Essence Maximum: 71476
+   Instruction: REVERT Solvable: False Essence Maximum: 36057
+   Instruction: CALL Solvable: False Essence Maximum: 36056
+   Instruction: REVERT Solvable: False Essence Maximum: 70794
+   Instruction: RETURN Solvable: False Essence Maximum: 71158
+   Instruction: REVERT Solvable: False Essence Maximum: 36641
+   Instruction: CALL Solvable: False Essence Maximum: 36640
+   Instruction: REVERT Solvable: False Essence Maximum: 71378
+   Instruction: RETURN Solvable: False Essence Maximum: 71742
+   Instruction: REVERT Solvable: False Essence Maximum: 36323
+   Instruction: CALL Solvable: False Essence Maximum: 36322
+   Instruction: REVERT Solvable: False Essence Maximum: 71060
+   Instruction: RETURN Solvable: False Essence Maximum: 71424
+   Instruction: REVERT Solvable: False Essence Maximum: 36907
+   Instruction: CALL Solvable: False Essence Maximum: 36906
+   Instruction: REVERT Solvable: False Essence Maximum: 71644
+   Instruction: RETURN Solvable: False Essence Maximum: 72008
+   Instruction: REVERT Solvable: False Essence Maximum: 36589
+   Instruction: CALL Solvable: False Essence Maximum: 36588
+   Instruction: REVERT Solvable: False Essence Maximum: 37173
+   Instruction: CALL Solvable: False Essence Maximum: 37172
+   Instruction: REVERT Solvable: False Essence Maximum: 581
+   Instruction: RETURN Solvable: False Essence Maximum: 1722
+   Instruction: REVERT Solvable: False Essence Maximum: 603
+   Instruction: REVERT Solvable: False Essence Maximum: 1518
+   Instruction: REVERT Solvable: False Essence Maximum: 625
+   Instruction: RETURN Solvable: False Essence Maximum: 2058
+   Instruction: REVERT Solvable: False Essence Maximum: 647
+   Instruction: REVERT Solvable: False Essence Maximum: 1532
+   Instruction: REVERT Solvable: False Essence Maximum: 1492 Type Vol: Time
+   Instruction: REVERT Solvable: False Essence Maximum: 1523 Type Vol: Time
+   Instruction: STOP Solvable: False Essence Maximum: 55647 Type Vol: Time Time
+ Nombre total de chemins: 109
+   Essence Minimale: 581
+   Essence Maximale: 72008
+
+Appel autre contrat détecté
+Temps exécution: 6029.880982160568
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 31-KYC
+adresse contrat: 0xc9e8045616abbdf535fda1fdbfe04b4f42101b2e
+
+Aucun vol d'essences détecté dans le contrat 31-KYC
+Temps exécution: 35.83550500869751
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 32-YeedToken
+adresse contrat: 0xca2796f9f61dc7b238aab043971e49c6164df375
+
+Aucun vol d'essences détecté dans le contrat 32-YeedToken
+Temps exécution: 75.9588840007782
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 33-EtherGames
+adresse contrat: 0xd2cbca4449adb54ecddb3a65faf204b5e1790c3e
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 33-EtherGames
+Fonction: a2f77bcc
+   Instruction: REVERT Solvable: True Essence Maximum: 512
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 1350 Type Vol: Instruction Invalide
+ Nombre total de chemins: 2
+   Essence Minimale: 512
+   Essence Maximale: 1350
+
+Temps exécution: 104.18797159194946
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 34-Lottery
+adresse contrat: 0xd834bED9042c2004493f8c8f28C5AaAAb1f36780
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 34-Lottery
+Fonction:
+   Instruction: REVERT Solvable: True Essence Maximum: 568
+   Instruction: REVERT Solvable: True Essence Maximum: 57546 Type Vol: BlockNumber
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 58378 Type Vol: Instruction Invalide BlockNumber
+ Nombre total de chemins: 3
+   Essence Minimale: 568
+   Essence Maximale: 58378
+
+Fonction: fallback
+   Instruction: REVERT Solvable: True Essence Maximum: 745
+   Instruction: REVERT Solvable: True Essence Maximum: 57723 Type Vol: BlockNumber
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 58555 Type Vol: Instruction Invalide BlockNumber
+ Nombre total de chemins: 3
+   Essence Minimale: 745
+   Essence Maximale: 58555
+
+Temps exécution: 24.927276611328125
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 35-MetabaseCrowdSale
+adresse contrat: 0xde0e95cd7572537842045e9d0051a2c3923794c8
+
+Aucun vol d'essences détecté dans le contrat 35-MetabaseCrowdSale
+Temps exécution: 29.56345772743225
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 36-Tripy
+adresse contrat: 0xe29cd51e9c816181bd51d1ab781c3556205d44ff
+
+Aucun vol d'essences détecté dans le contrat 36-Tripy
+Temps exécution: 78.052805185318
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 37-BarrelAgedFOMO
+adresse contrat: 0xeac97639bd994496c974040536f4e99cbd9d692e
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 37-BarrelAgedFOMO
+Fonction:
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 995 Type Vol: Instruction Invalide
+ Nombre total de chemins: 1
+   Essence Minimale: 995
+   Essence Maximale: 995
+
+Fonction: a391c15b
+   Instruction: REVERT Solvable: True Essence Maximum: 424
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 526 Type Vol: Instruction Invalide
+   Instruction: RETURN Solvable: True Essence Maximum: 899
+ Nombre total de chemins: 3
+   Essence Minimale: 424
+   Essence Maximale: 899
+
+Fonction: fallback
+   Instruction: ASSERT_FAIL Solvable: True Essence Maximum: 1348 Type Vol: Instruction Invalide
+ Nombre total de chemins: 1
+   Essence Minimale: 1348
+   Essence Maximale: 1348
+
+Temps exécution: 56.24576497077942
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 38-MEMESCrowdsale
+adresse contrat: 0xf2cff4826bf8656173084e86ade7b65bf9aeef5b
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 38-MEMESCrowdsale
+Fonction:
+   Instruction: REVERT Solvable: True Essence Maximum: 168
+   Instruction: REVERT Solvable: True Essence Maximum: 590 Type Vol: Time
+   Instruction: REVERT Solvable: True Essence Maximum: 1012 Type Vol: Time
+ Nombre total de chemins: 3
+   Essence Minimale: 168
+   Essence Maximale: 1012
+
+Fonction: fallback
+   Instruction: REVERT Solvable: True Essence Maximum: 817
+   Instruction: REVERT Solvable: True Essence Maximum: 1239 Type Vol: Time
+ Nombre total de chemins: 2
+   Essence Minimale: 817
+   Essence Maximale: 1239
+
+Fonction: 00010101
+   Instruction: REVERT Solvable: True Essence Maximum: 1661 Type Vol: Time
+ Nombre total de chemins: 1
+   Essence Minimale: 1661
+   Essence Maximale: 1661
+
+Temps exécution: 44.05751323699951
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 39-PlaakPreSale
+adresse contrat: 0xf902b3a6daee738ef7d165d8d38a7edb1336fbfe
+
+
+Bifurcations frauduleuses dans les fonctions ci-dessous dans le contrat 39-PlaakPreSale
+Fonction:
+   Instruction: REVERT Solvable: True Essence Maximum: 994
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 26662 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: False Essence Maximum: 29011
+   Instruction: CALL Solvable: True Essence Maximum: 29014
+   Instruction: REVERT Solvable: False Essence Maximum: 63739
+   Instruction: STOP Solvable: False Essence Maximum: 66367
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 26877 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: False Essence Maximum: 29226
+   Instruction: CALL Solvable: False Essence Maximum: 29229
+   Instruction: REVERT Solvable: False Essence Maximum: 63954
+   Instruction: RETURN Solvable: False Essence Maximum: 66910
+   Instruction: REVERT Solvable: False Essence Maximum: 358
+   Instruction: REVERT Solvable: False Essence Maximum: 1213
+   Instruction: REVERT Solvable: False Essence Maximum: 380
+   Instruction: RETURN Solvable: False Essence Maximum: 1516
+   Instruction: REVERT Solvable: False Essence Maximum: 402
+   Instruction: RETURN Solvable: False Essence Maximum: 1538
+   Instruction: REVERT Solvable: False Essence Maximum: 1237
+   Instruction: ASSERT_FAIL Solvable: False Essence Maximum: 26905 Type Vol: Instruction Invalide
+   Instruction: REVERT Solvable: False Essence Maximum: 29254
+   Instruction: CALL Solvable: False Essence Maximum: 29257
+   Instruction: REVERT Solvable: False Essence Maximum: 63982
+   Instruction: STOP Solvable: False Essence Maximum: 66610
+ Nombre total de chemins: 23
+   Essence Minimale: 358
+   Essence Maximale: 66910
+
+Appel autre contrat détecté
+Temps exécution: 603.4935936927795
+Analyse terminée
+----------------------------------------------------------------------------
+
+nom contrat: 40-Lottery2
+adresse contrat: 0xffff0031d8768861b3172a7c7dc7d91b646f53db
+
+Aucun vol d'essences détecté dans le contrat 40-Lottery2
+Appels autre contract:  CALL detecte
+Appels autre contract:  CALL detecte
+Appels autre contract:  CALL detecte
+Appels autre contract:  CALL detecte
+Appels autre contract:  CALL detecte
+Appels autre contract:  CALL detecte
+Appels autre contract:  CALL detecte
+Appels autre contract:  CALL detecte
+Appels autre contract:  CALL detecte
+Temps exécution: 600.5301656723022
+Analyse terminée
+----------------------------------------------------------------------------
